@@ -59,7 +59,16 @@ Steps
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/RGB%20and%20HLS%20graying.png)
     
-3. extract ROI (Range of Intrest)
+3. edge detection
+
+    I use Canny detector to detect the edge in the image. The function in OpenCV is Canny.
+    
+    for more details: https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html?highlight=canny
+    
+    before and after edge detection:
+    
+    
+4. extract ROI (Range of Intrest)
     
     the current lane should only appear in a certain trapezoidal region in the picture, so the information in other regions can be ignored
     
