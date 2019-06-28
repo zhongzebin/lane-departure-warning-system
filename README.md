@@ -67,6 +67,7 @@ Steps
     
     before and after edge detection:
     
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/edge%20detection.png)
     
 4. extract ROI (Range of Intrest)
     
