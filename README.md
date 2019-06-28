@@ -75,4 +75,12 @@ Steps
     
     before and after extracting ROI:
     
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/ROI.png)
+
+5. antiperspective transformation
+
+    First, I should select four points on the straight line and obtain the corridinates of these four points in the image. Then, I should find out the corridinates of these four points in the birdview projection. Using these four groups of points, I can calculate out the transformation matrix (by using the function getPerspectiveTransform).
+    
+    the four points I selected in the image:
+    
     
