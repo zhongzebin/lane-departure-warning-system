@@ -47,7 +47,7 @@ Steps
     
     use the function cvtColor to convert the colored image into gray image
     
-    the principle of this function is: gray=0.3*R+0.59*G+0.11*B
+    the principle of this function is: gray=0.3×R+0.59×G+0.11×B
     
     however, sometimes it doesn't work well such as the following picture shows:
     
@@ -57,4 +57,4 @@ Steps
     
     before and after graying:
     
-    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/RGB%20and%20HLS%20graying.png)
