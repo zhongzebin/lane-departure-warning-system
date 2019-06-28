@@ -9,4 +9,8 @@ How to configure the environment?
 
 1. install and configure OpenCV
 
-https://blog.csdn.net/weixin_42731241/article/details/81626700
+    https://blog.csdn.net/weixin_42731241/article/details/81626700
+
+2. install and configure CUDA (you need to have a NVIDIA GPU first)
+
+    https://blog.csdn.net/qq_30623591/article/details/82084113
