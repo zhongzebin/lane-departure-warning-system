@@ -26,3 +26,16 @@ How to run this project?
 4. run the code
 
 5. the output video will be like "lane departure warning.mp4"
+
+Steps
+
+1. camera calibration
+
+    use the camera (identical to the one installed in the car) to capture 15 chessboard pictures in different angles
+    
+    use the function findChessboardCorners, cornerSubPix and calibrateCamera to calculate camera calibration matrix
+    
+    use the function remap to calibrate the picture
+    
+    for more details: https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
+    
