@@ -39,3 +39,5 @@ Steps
     
     for more details: https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
     
+    pictures for readme/camera calibration.png
+    
