@@ -39,5 +39,7 @@ Steps
     
     for more details: https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html
     
+    before and after camera calibration
+    
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/camera%20calibration.png)
     
