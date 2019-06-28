@@ -58,3 +58,11 @@ Steps
     before and after graying:
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/RGB%20and%20HLS%20graying.png)
+    
+3. extract ROI (Range of Intrest)
+    
+    the current lane should only appear in a certain trapezoidal region in the picture, so the information in other regions can be ignored
+    
+    before and after extracting ROI:
+    
+    
