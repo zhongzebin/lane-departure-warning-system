@@ -55,4 +55,6 @@ Steps
     
     in order to solve this problem, I turn the RGB image into HLS image and extract channel S, then combine it with the gray image I have already got
     
+    before and after graying:
+    
     
