@@ -49,4 +49,10 @@ Steps
     
     the principle of this function is: gray=0.3*R+0.59*G+0.11*B
     
-    however, sometimes it doesn't work well such as the following picture:
+    however, sometimes it doesn't work well such as the following picture shows:
+    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/RGB%20graying.png)
+    
+    in order to solve this problem, I turn the RGB image into HLS image and extract channel S, then combine it with the gray image I have already got
+    
+    
