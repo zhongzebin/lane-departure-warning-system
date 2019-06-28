@@ -14,3 +14,15 @@ How to configure the environment?
 2. install and configure CUDA (you need to have a NVIDIA GPU first)
 
     https://blog.csdn.net/qq_30623591/article/details/82084113
+    
+How to run this project?
+
+1. create a Console Application in VS
+
+2. copy the code in "lane departure warning system.cpp" to your main cpp file or add it as your main cpp file
+
+3. copy the pictures in "calibration pictures" and the "project_video.mp4" to your project directory
+
+4. run the code
+
+5. the output video will be like "lane departure warning.mp4"
