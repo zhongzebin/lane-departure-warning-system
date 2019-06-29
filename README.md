@@ -115,3 +115,17 @@ Steps
     before and after getting the center points:
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/center%20points.png)
+    
+9. polyfit
+
+    I polyfit the center points and then got a quadratic function (lanes are designed according to the quadratic function).
+    
+    for more details: https://blog.csdn.net/eric_e/article/details/79519436
+    
+10. smoothing
+
+    The lanes can't change a lot between frames, so I set a group of thresholds. If the change of polyfit parameters between frames is bigger than the thresholds, it can only change to the threshold.
+    
+    before and after smoothing:
+    
+    
