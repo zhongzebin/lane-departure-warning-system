@@ -114,4 +114,4 @@ Steps
     
     before and after getting the center points:
     
-    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/center%20points.png)
