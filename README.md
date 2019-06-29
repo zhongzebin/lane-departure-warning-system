@@ -105,3 +105,13 @@ Steps
     Screen the segments according to their slope because the lane is apporximately vertical in the image. I choose to ignore the segments whose slope is less than 1.
     
     before and after screening (in case of shadow section):
+    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/screen.png)
+
+8. get the center points
+    
+    In order to have a better detection of the lanes, I translate the left and right points to the center to create the center points. In this way, if one side of points detected is not enough for polyfit, the other side will also help.
+    
+    before and after getting the center points:
+    
+    
