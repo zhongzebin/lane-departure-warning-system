@@ -21,7 +21,7 @@ How to run this project?
 
 2. copy the code in "lane departure warning system.cpp" to your main cpp file or add it as your main cpp file
 
-3. copy the pictures in "calibration pictures" and the "project_video.mp4" to your project directory
+3. copy the pictures in "calibration pictures" and the "project_video.mp4", "warning.wma" to your project directory
 
 4. run the code
 
@@ -126,6 +126,18 @@ Steps
 
     The lanes can't change a lot between frames, so I set a group of thresholds. If the change of polyfit parameters between frames is bigger than the thresholds, it can only change to the threshold.
     
-    before and after smoothing:
+    before and after smoothing (in case of shadow section):
+    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/smooth.png)
+
+11. calculate off center
+
+    First to drive the car to the center of the lane and capture a picture. Detect the center lane in this picture. Then, in the real-time video, I can use the relative center position to calculate the off center. e.g. off center=abs(current x-center x), the x refers to the bottom x corridnate of the polyfit center lanes in the image.
+    
+12. warning
+
+    I select 0.6m as the warning threshold. If off center is more than 0.6m, the warning signal will be triggered. It will appear red warning characters in the top left of the image and have the warning sound displayed.
+    
+    in case of warning:
     
     
