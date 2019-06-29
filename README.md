@@ -90,3 +90,12 @@ Steps
     before and after antiperspective transformation:
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/antiperspective%20transformation.png)
+6. Hough transform
+    
+    Using the function HoughtLinesP to detect the segment ends in the image.
+    
+    for more details: https://docs.opencv.org/2.4/modules/imgproc/doc/feature_detection.html?highlight=houghlinesp#void%20HoughLinesP(InputArray%20image,%20OutputArray%20lines,%20double%20rho,%20double%20theta,%20int%20threshold,%20double%20minLineLength,%20double%20maxLineGap)
+    
+    before and after Hough transform:
+    
+    
