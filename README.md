@@ -84,3 +84,9 @@ Steps
     the four points I selected in the image:
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/four%20points.png)
+    
+    Having obtained the transformation matrix, I can use the function warpPerspective to do the antiperspective transformation.
+    
+    before and after antiperspective transformation:
+    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/antiperspective%20transformation.png)
