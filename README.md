@@ -99,3 +99,9 @@ Steps
     after Hough transform:
     
     ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/hough%20transform.png)
+    
+7. segment screening
+    
+    Screen the segments according to their slope because the lane is apporximately vertical in the image. I choose to ignore the segments whose slope is less than 1.
+    
+    before and after screening (in case of shadow section):
