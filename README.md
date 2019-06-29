@@ -83,4 +83,4 @@ Steps
     
     the four points I selected in the image:
     
-    
+    ![image](https://github.com/zhongzebin/lane-departure-warning-system/blob/master/pictures%20for%20readme/four%20points.png)
